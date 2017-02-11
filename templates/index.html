@@ -3,6 +3,38 @@
 {% block head %}
 	<title>The CrashDevBlog</title>
 {% endblock %}
-	<div>blahblah</div>
+
 {% block body %}
+
+<div class="gridster" style = "padding-top: 2vw">
+    <ul>
+        <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">blahlblha</li>
+        <li data-row="2" data-col="1" data-sizex="1" data-sizey="1"></li>
+        <li data-row="3" data-col="1" data-sizex="1" data-sizey="1"></li>
+
+        <li data-row="1" data-col="2" data-sizex="2" data-sizey="1"></li>
+        <li data-row="2" data-col="2" data-sizex="2" data-sizey="2"></li>
+
+        <li data-row="1" data-col="4" data-sizex="1" data-sizey="1"></li>
+        <li data-row="2" data-col="4" data-sizex="2" data-sizey="1"></li>
+        <li data-row="3" data-col="4" data-sizex="1" data-sizey="1"></li>
+
+        <li data-row="1" data-col="5" data-sizex="1" data-sizey="1"></li>
+        <li data-row="3" data-col="5" data-sizex="1" data-sizey="1"></li>
+
+        <li data-row="1" data-col="6" data-sizex="1" data-sizey="1"></li>
+        <li data-row="2" data-col="6" data-sizex="1" data-sizey="2"></li>
+    </ul>
+</div>
+<script type="text/javascript">
+      var gridster;
+
+      $(function() {
+          gridster = $(".gridster > ul").gridster({
+              widget_margins: [10, 10],
+              widget_base_dimensions: [140, 140],
+              min_cols: 6
+          }).data('gridster');
+      });
+    </script> 
 {% endblock %}
