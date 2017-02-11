@@ -26,8 +26,8 @@ h3 {
 
 /* Gridster styles */
 .demo {
-    margin: 3em 0;
-    padding: 7.5em 0 5.5em;
+    margin: 3em 1em;
+    padding: 7.5em 1.5em 5.5em;
     background: #004756;
 }
 
@@ -36,7 +36,7 @@ h3 {
 }
 
 .gridster {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 
     opacity: .8;
