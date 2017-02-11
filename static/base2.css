@@ -2,6 +2,33 @@
  border-radius: 50%;
 }
 
+body {
+    background-color: #EEEEEE;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: x-small;
+    color: #666666;
+}
+
+ul, ol {
+    
+}
+#li{
+
+  background-color: black;
+}
+h1 {
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
 /* Gridster styles */
 .demo {
     margin: 3em 0;
@@ -14,7 +41,7 @@
 }
 
 .gridster {
-    background: #FFF;
+    background: #FFFFFF;
     width: 940px;
     margin: 0 auto;
 
@@ -28,7 +55,7 @@
 }
 
 .gridster .gs_w {
-    background: #FFF;
+    background: #999999;
     cursor: pointer;
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
